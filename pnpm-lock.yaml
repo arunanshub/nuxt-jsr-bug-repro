@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      '@std/ulid':
+        specifier: npm:@jsr/std__ulid@1.0.0-rc.4
+        version: '@jsr/std__ulid@1.0.0-rc.4'
     devDependencies:
       nitropack:
         specifier: latest
@@ -270,6 +274,9 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
+
+  '@jsr/std__ulid@1.0.0-rc.4':
+    resolution: {integrity: sha512-dJPkGZitKk31EOSyP64SAlTXdGPlzu4CXOBIYwq+0zSeATGMjB4ZVgGjrUqUp/YZEUah6XwX1WLc9krGHqQjPw==, tarball: https://npm.jsr.io/~/11/@jsr/std__ulid/1.0.0-rc.4.tgz}
 
   '@mapbox/node-pre-gyp@2.0.0-rc.0':
     resolution: {integrity: sha512-nhSMNprz3WmeRvd8iUs5JqkKr0Ncx46JtPxM3AhXes84XpSJfmIwKeWXRpsr53S7kqPkQfPhzrMFUxSNb23qSA==}
@@ -2135,6 +2142,8 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
+
+  '@jsr/std__ulid@1.0.0-rc.4': {}
 
   '@mapbox/node-pre-gyp@2.0.0-rc.0':
     dependencies:

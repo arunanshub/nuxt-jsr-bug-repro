@@ -1,0 +1,10 @@
+.nuxt/
+.nitro/
+.output/
+.git/
+.gitignore/
+.env
+node_modules/
+README.md
+.vscode/
+data/

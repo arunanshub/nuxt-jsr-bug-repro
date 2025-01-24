@@ -1,3 +1,9 @@
-# Nitro starter
+# Nitro and JSR MCVE
 
-Look at the [nitro quick start](https://nitro.unjs.io/guide#quick-start) to learn more how to get started.
+How to reproduce:
+
+```bash
+docker build -t nitro-jsr . && docker run --rm -p 3000:3000 nitro-jsr:latest
+```
+
+Visit `localhost:3000/api/ulid`. It should raise errors.
